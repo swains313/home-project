@@ -1,0 +1,88 @@
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 5px;
+  }
+
+  .image1{
+    height: 25px;
+    width:  25px;
+
+  }
+
+
+
+  .bg-teal{
+    background-color: black;
+  }
+
+  .bg-gray{
+    background-color: #E9ECEF;
+    height: 85vh;
+    width: 100%;
+  }
+  .text-white{
+    color: white;
+  }
+
+
+  main .container .card{
+    background-color: rgb(128, 128, 128);
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+main ul{
+    margin-top: 3rem;
+    display: grid;
+    gap: 1rem 2rem;
+    list-style-type: none;
+    grid-template-columns: 1fr 1fr;
+    
+}
+main ul li a{
+    text-decoration: none;
+    color: rgb(24, 129, 220);
+    font-size: larger ;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+main ul li{
+    /* background-color: rgb(160, 235, 225); */
+    background-color: whitesmoke;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    padding: 2px;
+    margin-right: 8px;
+    hover: none;
+  
+}
+
+main ul li a{
+    margin-left: 8px;
+    /* color: #5c43c0; */
+    color: black;
+}
+
+
+.hover-color li:hover {
+  background-color: wheat; /* Change the background color on hover */
+  /* Add other styles for the hover effect */
+}
+

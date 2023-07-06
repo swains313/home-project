@@ -1,0 +1,60 @@
+
+/* slides */
+
+
+
+section {
+    display: block;
+  }
+
+  .slides-center {
+    grid-template-columns: 1fr 1fr ;
+  }
+  .slides-center {
+    display: grid;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+  
+  .container-center {
+    width: 90vw;
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+  
+  .slide {
+    background: var(--white);
+    display: block;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--shadow-2);
+  }
+  
+  .slide footer h5 {
+    margin: 0;
+    color: var(--primary-500);
+    text-transform: none;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+  }
+  h5 {
+    margin: 3rem 0 1.38rem;
+    margin-bottom: 0.75rem;
+    font-family: var(--headingFont);
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: capitalize;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
